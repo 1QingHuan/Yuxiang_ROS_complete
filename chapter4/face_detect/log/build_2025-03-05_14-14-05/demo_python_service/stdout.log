@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying resource/haarcascade_frontalface_default.xml -> /home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/share/demo_python_service/resource
+running install_egg_info
+removing '/home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+running install_scripts
+Installing face_detect script to /home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/demo_python_service
+Installing face_detect_node script to /home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/demo_python_service
+writing list of installed files to '/home/qing/ros2_humble/chapter4/face_detect/build/demo_python_service/install.log'

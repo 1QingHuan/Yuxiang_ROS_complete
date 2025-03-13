@@ -1,0 +1,29 @@
+[0.616s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner -- -j16 -l16
+[0.668s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[4.913s] [100%] [32m[1mLinking CXX shared library libnav2_custom_planner_plugin.so[0m
+[5.196s] [100%] Built target nav2_custom_planner_plugin
+[5.207s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner -- -j16 -l16
+[5.208s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner
+[5.216s] -- Install configuration: ""
+[5.216s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so
+[5.216s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/include/
+[5.216s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/include//nav2_custom_planner
+[5.216s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/include//nav2_custom_planner/nav2_custom_planner.hpp
+[5.216s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/custom_planner_plugin.xml
+[5.217s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/package_run_dependencies/nav2_custom_planner
+[5.217s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/parent_prefix_path/nav2_custom_planner
+[5.217s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.sh
+[5.218s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.dsv
+[5.218s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.sh
+[5.218s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.dsv
+[5.218s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.bash
+[5.218s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.sh
+[5.218s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.zsh
+[5.219s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.dsv
+[5.219s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv
+[5.219s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/packages/nav2_custom_planner
+[5.219s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_planner
+[5.219s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig.cmake
+[5.220s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig-version.cmake
+[5.220s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.xml
+[5.228s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner

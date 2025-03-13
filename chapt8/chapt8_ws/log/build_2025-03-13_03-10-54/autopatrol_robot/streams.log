@@ -1,0 +1,34 @@
+[1.826s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_robot': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/build install --record /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[2.136s] running egg_info
+[2.137s] creating ../../build/autopatrol_robot/autopatrol_robot.egg-info
+[2.138s] writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[2.140s] writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[2.141s] running build
+[2.141s] running build_py
+[2.141s] creating /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/build
+[2.141s] creating /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/build/lib
+[2.141s] creating /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[2.141s] copying autopatrol_robot/speaker.py -> /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[2.141s] copying autopatrol_robot/patrol_node.py -> /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[2.142s] copying autopatrol_robot/__init__.py -> /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[2.142s] running install
+[2.144s] running install_lib
+[2.145s] creating /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[2.146s] byte-compiling /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/speaker.py to speaker.cpython-310.pyc
+[2.147s] byte-compiling /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/patrol_node.py to patrol_node.cpython-310.pyc
+[2.148s] byte-compiling /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/__init__.py to __init__.cpython-310.pyc
+[2.149s] running install_data
+[2.149s] creating /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/ament_index
+[2.149s] creating /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/ament_index/resource_index
+[2.149s] creating /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/ament_index/resource_index/packages
+[2.149s] copying resource/autopatrol_robot -> /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/ament_index/resource_index/packages
+[2.149s] copying package.xml -> /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot
+[2.149s] creating /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/config
+[2.149s] copying config/patrol_config.yaml -> /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/config
+[2.150s] creating /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/launch
+[2.150s] copying launch/autopatrol.launch.py -> /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/launch
+[2.150s] running install_egg_info
+[2.152s] Copying ../../build/autopatrol_robot/autopatrol_robot.egg-info to /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info
+[2.153s] running install_scripts
+[2.178s] writing list of installed files to '/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/install.log'
+[2.218s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_robot' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/build install --record /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+[0.483s] Invoking command in '/home/qing/ros2_humble/chapter5/chapt5_1/src/demo_python_tf': CONDA_PROMPT_MODIFIER=(ros_test) PYTHONPATH=/home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/build install --record /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/install.log --single-version-externally-managed install_data
+[0.679s] running egg_info
+[0.679s] writing ../../build/demo_python_tf/demo_python_tf.egg-info/PKG-INFO
+[0.679s] writing dependency_links to ../../build/demo_python_tf/demo_python_tf.egg-info/dependency_links.txt
+[0.680s] writing entry points to ../../build/demo_python_tf/demo_python_tf.egg-info/entry_points.txt
+[0.680s] writing requirements to ../../build/demo_python_tf/demo_python_tf.egg-info/requires.txt
+[0.680s] writing top-level names to ../../build/demo_python_tf/demo_python_tf.egg-info/top_level.txt
+[0.681s] reading manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.682s] writing manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.682s] running build
+[0.682s] running build_py
+[0.682s] copying demo_python_tf/tf_listener.py -> /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/build/lib/demo_python_tf
+[0.682s] running install
+[0.682s] running install_lib
+[0.683s] copying /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/build/lib/demo_python_tf/tf_listener.py -> /home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf
+[0.684s] byte-compiling /home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf/tf_listener.py to tf_listener.cpython-310.pyc
+[0.684s] running install_data
+[0.684s] running install_egg_info
+[0.685s] removing '/home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf-0.0.0-py3.10.egg-info' (and everything under it)
+[0.686s] Copying ../../build/demo_python_tf/demo_python_tf.egg-info to /home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf-0.0.0-py3.10.egg-info
+[0.686s] running install_scripts
+[0.701s] Installing dynamic_tf_broadcaster script to /home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/demo_python_tf
+[0.701s] Installing static_tf_broadcaster script to /home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/demo_python_tf
+[0.701s] Installing tf_listener script to /home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/demo_python_tf
+[0.702s] writing list of installed files to '/home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/install.log'
+[0.720s] Invoked command in '/home/qing/ros2_humble/chapter5/chapt5_1/src/demo_python_tf' returned '0': CONDA_PROMPT_MODIFIER=(ros_test) PYTHONPATH=/home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/build install --record /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[0.609s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp -- -j16 -l16
+[0.666s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2pose.dir/src/nav2pose.cpp.o[0m
+[4.056s] [100%] [32m[1mLinking CXX executable nav2pose[0m
+[4.238s] [100%] Built target nav2pose
+[4.249s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp -- -j16 -l16
+[4.251s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp
+[4.258s] -- Install configuration: ""
+[4.258s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/lib/fishbot_application_cpp/nav2pose
+[4.259s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/ament_index/resource_index/package_run_dependencies/fishbot_application_cpp
+[4.259s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/ament_index/resource_index/parent_prefix_path/fishbot_application_cpp
+[4.259s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/environment/ament_prefix_path.sh
+[4.259s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/environment/ament_prefix_path.dsv
+[4.260s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/environment/path.sh
+[4.260s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/environment/path.dsv
+[4.260s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/local_setup.bash
+[4.260s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/local_setup.sh
+[4.261s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/local_setup.zsh
+[4.261s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/local_setup.dsv
+[4.261s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.dsv
+[4.261s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/ament_index/resource_index/packages/fishbot_application_cpp
+[4.261s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/cmake/fishbot_application_cppConfig.cmake
+[4.262s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/cmake/fishbot_application_cppConfig-version.cmake
+[4.262s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.xml
+[4.264s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp

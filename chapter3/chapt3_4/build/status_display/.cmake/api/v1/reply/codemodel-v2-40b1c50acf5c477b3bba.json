@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-55adcfa421ee68711ab2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "status_display",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_qt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_qt-c3b9d40092df02625aee.json",
+					"name" : "hello_qt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_display_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_display_uninstall-0a2c8c9c860c6bc8fe63.json",
+					"name" : "status_display_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sys_status_display::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sys_status_display-6fce8c9a24b92e03f85a.json",
+					"name" : "sys_status_display",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a02fc8dc44eb7590d12c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/qing/ros2_humble/chapter3/chapt3_4/build/status_display",
+		"source" : "/home/qing/ros2_humble/chapter3/chapt3_4/src/status_display"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

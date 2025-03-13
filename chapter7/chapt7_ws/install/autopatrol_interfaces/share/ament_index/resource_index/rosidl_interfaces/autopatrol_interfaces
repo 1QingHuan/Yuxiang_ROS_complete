@@ -1,0 +1,4 @@
+srv/SpeachText.idl
+srv/SpeachText.srv
+srv/SpeachText_Request.msg
+srv/SpeachText_Response.msg

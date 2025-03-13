@@ -1,0 +1,20 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2pose.dir/src/nav2pose.cpp.o[0m
+[100%] [32m[1mLinking CXX executable nav2pose[0m
+[100%] Built target nav2pose
+-- Install configuration: ""
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/lib/fishbot_application_cpp/nav2pose
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/ament_index/resource_index/package_run_dependencies/fishbot_application_cpp
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/ament_index/resource_index/parent_prefix_path/fishbot_application_cpp
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/environment/path.sh
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/environment/path.dsv
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/local_setup.bash
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/local_setup.sh
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/local_setup.zsh
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/local_setup.dsv
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.dsv
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/ament_index/resource_index/packages/fishbot_application_cpp
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/cmake/fishbot_application_cppConfig.cmake
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/cmake/fishbot_application_cppConfig-version.cmake
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.xml

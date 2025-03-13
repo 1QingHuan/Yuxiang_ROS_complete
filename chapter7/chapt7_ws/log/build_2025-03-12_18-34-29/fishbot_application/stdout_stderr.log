@@ -1,0 +1,12 @@
+running egg_info
+writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/fishbot_application/fishbot_application.egg-info to /home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/install.log'

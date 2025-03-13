@@ -1,0 +1,16 @@
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/lib/fishbot_application_cpp/nav2pose
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/ament_index/resource_index/package_run_dependencies/fishbot_application_cpp
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/ament_index/resource_index/parent_prefix_path/fishbot_application_cpp
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/environment/ament_prefix_path.sh
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/environment/ament_prefix_path.dsv
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/environment/path.sh
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/environment/path.dsv
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/local_setup.bash
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/local_setup.sh
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/local_setup.zsh
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/local_setup.dsv
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.dsv
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/ament_index/resource_index/packages/fishbot_application_cpp
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/cmake/fishbot_application_cppConfig.cmake
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/cmake/fishbot_application_cppConfig-version.cmake
+/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.xml

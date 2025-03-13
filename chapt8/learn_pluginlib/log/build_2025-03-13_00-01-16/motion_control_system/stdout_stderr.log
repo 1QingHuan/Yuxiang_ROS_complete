@@ -1,0 +1,56 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/qing/下载/enter/bin/python3 (found version "3.10.14") found components: Interpreter 
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/qing/ros2_humble/chapt8/learn_pluginlib/src/motion_control_system/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qing/ros2_humble/chapt8/learn_pluginlib/build/motion_control_system
+[ 25%] [32mBuilding CXX object CMakeFiles/spin_motion_controller.dir/src/spin_motion_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_plugin.dir/src/test_plugin.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libspin_motion_controller.so[0m
+[ 75%] Built target spin_motion_controller
+[100%] [32m[1mLinking CXX executable test_plugin[0m
+[100%] Built target test_plugin
+-- Install configuration: ""
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/lib/motion_control_system/test_plugin
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/lib/libspin_motion_controller.so
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/include/
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/include//motion_control_system
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/include//motion_control_system/motion_control_interface.hpp
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/include//motion_control_system/spin_motion_controller.hpp
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/spin_motion_plugins.xml
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/ament_index/resource_index/package_run_dependencies/motion_control_system
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/ament_index/resource_index/parent_prefix_path/motion_control_system
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/environment/ament_prefix_path.sh
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/environment/ament_prefix_path.dsv
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/environment/path.sh
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/environment/path.dsv
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/local_setup.bash
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/local_setup.sh
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/local_setup.zsh
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/local_setup.dsv
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/package.dsv
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/ament_index/resource_index/packages/motion_control_system
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/ament_index/resource_index/motion_control_system__pluginlib__plugin/motion_control_system
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/cmake/motion_control_systemConfig.cmake
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/cmake/motion_control_systemConfig-version.cmake
+-- Installing: /home/qing/ros2_humble/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/package.xml

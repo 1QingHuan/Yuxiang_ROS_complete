@@ -1,0 +1,4 @@
+build:
+  cmake-args:
+    - "-DCMAKE_CXX_COMPILER=/usr/bin/g++"
+    - "-DCMAKE_CXX_FLAGS=-I/usr/include/c++/11"

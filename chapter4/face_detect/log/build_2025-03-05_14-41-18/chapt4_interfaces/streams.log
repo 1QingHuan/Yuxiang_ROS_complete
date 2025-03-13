@@ -1,0 +1,147 @@
+[0.010s] Invoking command in '/home/qing/ros2_humble/chapter4/face_detect/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_publisher:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake --build /home/qing/ros2_humble/chapter4/face_detect/build/chapt4_interfaces -- -j16 -l16
+[0.053s] [  3%] Built target chapt4_interfaces__cpp
+[0.053s] [ 12%] Built target chapt4_interfaces__rosidl_generator_c
+[0.062s] [ 12%] Built target ament_cmake_python_copy_chapt4_interfaces
+[0.072s] [ 22%] Built target chapt4_interfaces__rosidl_typesupport_introspection_cpp
+[0.072s] [ 32%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.073s] [ 41%] Built target chapt4_interfaces__rosidl_typesupport_cpp
+[0.082s] [ 61%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c
+[0.082s] [ 61%] Built target chapt4_interfaces__rosidl_typesupport_c
+[0.082s] [ 70%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c
+[0.102s] [ 70%] Built target chapt4_interfaces
+[0.122s] [ 74%] Built target chapt4_interfaces__py
+[0.142s] [ 80%] Built target chapt4_interfaces__rosidl_generator_py
+[0.162s] [100%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.162s] [100%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.162s] [100%] Built target chapt4_interfaces__rosidl_typesupport_c__pyext
+[0.333s] running egg_info
+[0.336s] writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[0.362s] [100%] Built target ament_cmake_python_build_chapt4_interfaces_egg
+[0.372s] Invoked command in '/home/qing/ros2_humble/chapter4/face_detect/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_publisher:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake --build /home/qing/ros2_humble/chapter4/face_detect/build/chapt4_interfaces -- -j16 -l16
+[0.382s] Invoking command in '/home/qing/ros2_humble/chapter4/face_detect/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_publisher:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake --install /home/qing/ros2_humble/chapter4/face_detect/build/chapt4_interfaces
+[0.389s] -- Install configuration: ""
+[0.389s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/ament_index/resource_index/rosidl_interfaces/chapt4_interfaces
+[0.389s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[0.389s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[0.389s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[0.389s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__type_support.h
+[0.389s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__struct.h
+[0.389s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__functions.h
+[0.389s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__functions.c
+[0.390s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detect.h
+[0.390s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[0.390s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.390s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.sh
+[0.390s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.dsv
+[0.390s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so
+[0.390s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[0.390s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[0.390s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[0.390s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__rosidl_typesupport_fastrtps_c.h
+[0.390s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__type_support.c
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__rosidl_typesupport_introspection_c.h
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detect.hpp
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__traits.hpp
+[0.391s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__type_support.hpp
+[0.392s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__builder.hpp
+[0.392s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__struct.hpp
+[0.392s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[0.392s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.392s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[0.392s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[0.392s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[0.392s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__rosidl_typesupport_fastrtps_cpp.hpp
+[0.392s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/dds_fastrtps
+[0.392s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[0.392s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.392s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.392s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__type_support.cpp
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detect__rosidl_typesupport_introspection_cpp.hpp
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.sh
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.dsv
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces-0.0.0-py3.10.egg-info
+[0.393s] -- Installing: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.393s] -- Installing: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.393s] -- Installing: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.393s] -- Installing: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c
+[0.393s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.394s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/srv
+[0.394s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/srv/_face_detect_s.c
+[0.394s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/srv/__init__.py
+[0.394s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/srv/_face_detect.py
+[0.394s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/__init__.py
+[0.421s] Listing '/home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces'...
+[0.422s] Listing '/home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/srv'...
+[0.425s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.425s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.425s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.425s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so
+[0.425s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetect.idl
+[0.426s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetect.srv
+[0.426s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetect_Request.msg
+[0.426s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetect_Response.msg
+[0.426s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/ament_index/resource_index/package_run_dependencies/chapt4_interfaces
+[0.426s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/ament_index/resource_index/parent_prefix_path/chapt4_interfaces
+[0.426s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.sh
+[0.426s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.dsv
+[0.426s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.sh
+[0.426s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.dsv
+[0.426s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.bash
+[0.426s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.sh
+[0.426s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.zsh
+[0.426s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.dsv
+[0.426s] -- Installing: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/ament_index/resource_index/packages/chapt4_interfaces
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport.cmake
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport.cmake
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cppExport.cmake
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.427s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig-version.cmake
+[0.428s] -- Up-to-date: /home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/share/chapt4_interfaces/package.xml
+[0.430s] Invoked command in '/home/qing/ros2_humble/chapter4/face_detect/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_publisher:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake --install /home/qing/ros2_humble/chapter4/face_detect/build/chapt4_interfaces

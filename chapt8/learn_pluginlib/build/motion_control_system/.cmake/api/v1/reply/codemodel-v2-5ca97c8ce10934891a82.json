@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7a5aab48ad4617f8a0d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "motion_control_system",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_control_system_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_control_system_uninstall-c0c58c7c08a81a28b9f8.json",
+					"name" : "motion_control_system_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spin_motion_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spin_motion_controller-da57c8739ede2775528f.json",
+					"name" : "spin_motion_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_plugin-d4322b4ed08cb33344e1.json",
+					"name" : "test_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-585c7ee4398479858f9b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/qing/ros2_humble/chapt8/learn_pluginlib/build/motion_control_system",
+		"source" : "/home/qing/ros2_humble/chapt8/learn_pluginlib/src/motion_control_system"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

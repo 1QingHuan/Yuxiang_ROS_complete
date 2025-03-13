@@ -1,0 +1,5 @@
+  File "/home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf/dynamic_tf_broadcaster.py", line 5
+    from tf2_ros.import TransformBroadcaster
+                 ^^^^^^
+SyntaxError: invalid syntax
+

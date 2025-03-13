@@ -1,0 +1,585 @@
+[0.133s] DEBUG:colcon:Command line arguments: ['/home/qing/下载/enter/bin/colcon', 'build']
+[0.133s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d4889d7cb80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d4889e7d390>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d4889e7d390>>)
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.322s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/qing/ros2_humble/chapt8/chapt8_ws'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopatrol_interfaces' with type 'ros.ament_cmake' and name 'autopatrol_interfaces'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopatrol_robot' with type 'ros.ament_python' and name 'autopatrol_robot'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_application' with type 'ros.ament_python' and name 'fishbot_application'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application_cpp) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application_cpp) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application_cpp) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application_cpp) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application_cpp) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application_cpp) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application_cpp) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application_cpp) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_application_cpp' with type 'ros.ament_cmake' and name 'fishbot_application_cpp'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_description' with type 'ros.ament_cmake' and name 'fishbot_description'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_navigation2' with type 'ros.ament_cmake' and name 'fishbot_navigation2'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_custom_controller' with type 'ros.ament_cmake' and name 'nav2_custom_controller'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'ros'
+[0.362s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_custom_planner' with type 'ros.ament_cmake' and name 'nav2_custom_planner'
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'autopatrol_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces', 'merge_install': False, 'path': '/home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'autopatrol_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot', 'merge_install': False, 'path': '/home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_robot', 'symlink_install': False, 'test_result_base': None}
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_application' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application', 'merge_install': False, 'path': '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_application', 'symlink_install': False, 'test_result_base': None}
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application_cpp' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application_cpp' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_application_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp', 'merge_install': False, 'path': '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_application_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description', 'merge_install': False, 'path': '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.382s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2', 'merge_install': False, 'path': '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'cmake_target' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.382s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_custom_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller', 'merge_install': False, 'path': '/home/qing/ros2_humble/chapt8/chapt8_ws/src/nav2_custom_controller', 'symlink_install': False, 'test_result_base': None}
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_target' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_custom_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner', 'merge_install': False, 'path': '/home/qing/ros2_humble/chapt8/chapt8_ws/src/nav2_custom_planner', 'symlink_install': False, 'test_result_base': None}
+[0.383s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.385s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.385s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_interfaces' with build type 'ament_cmake'
+[0.385s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_interfaces'
+[0.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.401s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_robot' with build type 'ament_python'
+[0.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_robot', 'ament_prefix_path')
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/hook/ament_prefix_path.ps1'
+[0.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/hook/ament_prefix_path.dsv'
+[0.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/hook/ament_prefix_path.sh'
+[0.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.406s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_application' with build type 'ament_python'
+[0.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_application', 'ament_prefix_path')
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/fishbot_application/hook/ament_prefix_path.ps1'
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/fishbot_application/hook/ament_prefix_path.dsv'
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/fishbot_application/hook/ament_prefix_path.sh'
+[0.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.410s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_application_cpp' with build type 'ament_cmake'
+[0.411s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_application_cpp'
+[0.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.415s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_description' with build type 'ament_cmake'
+[0.415s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_description'
+[0.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.419s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_navigation2' with build type 'ament_cmake'
+[0.419s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_navigation2'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.423s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/nav2_custom_controller' with build type 'ament_cmake'
+[0.423s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/nav2_custom_controller'
+[0.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.426s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/nav2_custom_planner' with build type 'ament_cmake'
+[0.426s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/nav2_custom_planner'
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces -- -j16 -l16
+[0.771s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_robot'
+[0.772s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.091s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_application'
+[1.091s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.091s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp -- -j16 -l16
+[1.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description -- -j16 -l16
+[1.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2 -- -j16 -l16
+[1.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller -- -j16 -l16
+[1.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner -- -j16 -l16
+[1.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces -- -j16 -l16
+[1.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces
+[1.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2 -- -j16 -l16
+[1.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2
+[1.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description -- -j16 -l16
+[1.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description
+[1.161s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[1.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2' for CMake module files
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2' for CMake config files
+[1.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/bin'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/bin'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[1.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[1.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2' for CMake module files
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2' for CMake config files
+[1.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/bin'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/bin'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[1.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[1.188s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description' for CMake module files
+[1.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description' for CMake config files
+[1.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/bin'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/lib/python3.10/site-packages'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/bin'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[1.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[1.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description' for CMake module files
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description' for CMake config files
+[1.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/bin'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/lib/python3.10/site-packages'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/bin'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[1.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[1.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp -- -j16 -l16
+[1.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp
+[1.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopatrol_interfaces)
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces' for CMake module files
+[1.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces' for CMake config files
+[1.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'cmake_prefix_path')
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.ps1'
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.dsv'
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.sh'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/lib'
+[1.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'ld_library_path_lib')
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.ps1'
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.dsv'
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.sh'
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/bin'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/lib/pkgconfig/autopatrol_interfaces.pc'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/lib/python3.10/site-packages'
+[1.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'pythonpath')
+[1.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/pythonpath.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/pythonpath.dsv'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/pythonpath.sh'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/bin'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.ps1'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.dsv'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.sh'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.bash'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.zsh'
+[1.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/colcon-core/packages/autopatrol_interfaces)
+[1.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopatrol_interfaces)
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces' for CMake module files
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces' for CMake config files
+[1.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'cmake_prefix_path')
+[1.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.ps1'
+[1.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.dsv'
+[1.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.sh'
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/lib'
+[1.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'ld_library_path_lib')
+[1.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.ps1'
+[1.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.dsv'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.sh'
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/bin'
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/lib/pkgconfig/autopatrol_interfaces.pc'
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/lib/python3.10/site-packages'
+[1.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'pythonpath')
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/pythonpath.ps1'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/pythonpath.dsv'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/pythonpath.sh'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/bin'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.ps1'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.dsv'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.sh'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.bash'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.zsh'
+[1.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces/share/colcon-core/packages/autopatrol_interfaces)
+[1.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller -- -j16 -l16
+[1.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller
+[1.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner -- -j16 -l16
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner
+[1.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_application_cpp)
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp' for CMake module files
+[1.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application_cpp
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp' for CMake config files
+[1.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_application_cpp', 'cmake_prefix_path')
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/hook/cmake_prefix_path.ps1'
+[1.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/hook/cmake_prefix_path.dsv'
+[1.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/hook/cmake_prefix_path.sh'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/lib'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/bin'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/lib/pkgconfig/fishbot_application_cpp.pc'
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/lib/python3.10/site-packages'
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/bin'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.ps1'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.dsv'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.sh'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.bash'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.zsh'
+[1.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/colcon-core/packages/fishbot_application_cpp)
+[1.250s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_application_cpp)
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp' for CMake module files
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp' for CMake config files
+[1.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_application_cpp', 'cmake_prefix_path')
+[1.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/hook/cmake_prefix_path.ps1'
+[1.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/hook/cmake_prefix_path.dsv'
+[1.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/hook/cmake_prefix_path.sh'
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/lib'
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/bin'
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/lib/pkgconfig/fishbot_application_cpp.pc'
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/lib/python3.10/site-packages'
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/bin'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.ps1'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.dsv'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.sh'
+[1.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.bash'
+[1.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/fishbot_application_cpp/package.zsh'
+[1.255s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application_cpp/share/colcon-core/packages/fishbot_application_cpp)
+[1.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_custom_planner)
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner' for CMake module files
+[1.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_planner
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner' for CMake config files
+[1.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_planner', 'cmake_prefix_path')
+[1.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.ps1'
+[1.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.dsv'
+[1.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.sh'
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/lib'
+[1.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_planner', 'ld_library_path_lib')
+[1.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/ld_library_path_lib.ps1'
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/ld_library_path_lib.dsv'
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/ld_library_path_lib.sh'
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/bin'
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/lib/pkgconfig/nav2_custom_planner.pc'
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/lib/python3.10/site-packages'
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/bin'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.ps1'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.sh'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.bash'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.zsh'
+[1.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/colcon-core/packages/nav2_custom_planner)
+[1.264s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_custom_planner)
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner' for CMake module files
+[1.265s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner' for CMake config files
+[1.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_planner', 'cmake_prefix_path')
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.ps1'
+[1.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.dsv'
+[1.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.sh'
+[1.267s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/lib'
+[1.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_planner', 'ld_library_path_lib')
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/ld_library_path_lib.ps1'
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/ld_library_path_lib.dsv'
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/ld_library_path_lib.sh'
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/bin'
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/lib/pkgconfig/nav2_custom_planner.pc'
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/lib/python3.10/site-packages'
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/bin'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.ps1'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.sh'
+[1.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.bash'
+[1.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.zsh'
+[1.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/colcon-core/packages/nav2_custom_planner)
+[1.271s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_custom_controller)
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller' for CMake module files
+[1.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller
+[1.272s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller' for CMake config files
+[1.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_controller', 'cmake_prefix_path')
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/hook/cmake_prefix_path.ps1'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/hook/cmake_prefix_path.dsv'
+[1.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/hook/cmake_prefix_path.sh'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/lib'
+[1.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_controller', 'ld_library_path_lib')
+[1.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/hook/ld_library_path_lib.ps1'
+[1.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/hook/ld_library_path_lib.dsv'
+[1.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/hook/ld_library_path_lib.sh'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/bin'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/lib/pkgconfig/nav2_custom_controller.pc'
+[1.276s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/lib/python3.10/site-packages'
+[1.276s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/bin'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.ps1'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.dsv'
+[1.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.sh'
+[1.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.bash'
+[1.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.zsh'
+[1.278s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/colcon-core/packages/nav2_custom_controller)
+[1.278s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_custom_controller)
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller' for CMake module files
+[1.279s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller' for CMake config files
+[1.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_controller', 'cmake_prefix_path')
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/hook/cmake_prefix_path.ps1'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/hook/cmake_prefix_path.dsv'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/hook/cmake_prefix_path.sh'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/lib'
+[1.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_controller', 'ld_library_path_lib')
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/hook/ld_library_path_lib.ps1'
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/hook/ld_library_path_lib.dsv'
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/hook/ld_library_path_lib.sh'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/bin'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/lib/pkgconfig/nav2_custom_controller.pc'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/lib/python3.10/site-packages'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/bin'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.ps1'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.dsv'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.sh'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.bash'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.zsh'
+[1.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/colcon-core/packages/nav2_custom_controller)
+[1.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_robot': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/build install --record /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[1.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_application': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/build install --record /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/install.log --single-version-externally-managed install_data
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application' for CMake module files
+[2.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_application' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/build install --record /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/install.log --single-version-externally-managed install_data
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application' for CMake config files
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/lib'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/bin'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/lib/pkgconfig/fishbot_application.pc'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/lib/python3.10/site-packages'
+[2.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_application', 'pythonpath')
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/fishbot_application/hook/pythonpath.ps1'
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/fishbot_application/hook/pythonpath.dsv'
+[2.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/fishbot_application/hook/pythonpath.sh'
+[2.017s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/bin'
+[2.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_application)
+[2.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/fishbot_application/package.ps1'
+[2.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/fishbot_application/package.dsv'
+[2.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/fishbot_application/package.sh'
+[2.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/fishbot_application/package.bash'
+[2.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/fishbot_application/package.zsh'
+[2.019s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/colcon-core/packages/fishbot_application)
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot' for CMake module files
+[2.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_robot' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/build install --record /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot' for CMake config files
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib'
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/bin'
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/pkgconfig/autopatrol_robot.pc'
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages'
+[2.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_robot', 'pythonpath')
+[2.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/hook/pythonpath.ps1'
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/hook/pythonpath.dsv'
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/hook/pythonpath.sh'
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/bin'
+[2.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopatrol_robot)
+[2.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/package.ps1'
+[2.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/package.dsv'
+[2.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/package.sh'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/package.bash'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/package.zsh'
+[2.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/share/colcon-core/packages/autopatrol_robot)
+[2.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.028s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.030s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[2.031s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.031s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.031s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[2.071s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.072s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/local_setup.ps1'
+[2.073s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qing/ros2_humble/chapt8/chapt8_ws/install/_local_setup_util_ps1.py'
+[2.074s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/setup.ps1'
+[2.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/local_setup.sh'
+[2.075s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qing/ros2_humble/chapt8/chapt8_ws/install/_local_setup_util_sh.py'
+[2.076s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/setup.sh'
+[2.077s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/local_setup.bash'
+[2.077s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/setup.bash'
+[2.078s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/local_setup.zsh'
+[2.078s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qing/ros2_humble/chapt8/chapt8_ws/install/setup.zsh'

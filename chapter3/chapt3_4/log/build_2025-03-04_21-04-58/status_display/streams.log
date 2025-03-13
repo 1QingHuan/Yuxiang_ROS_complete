@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/qing/ros2_humble/chapter3/chapt3_4/build/status_display': CMAKE_PREFIX_PATH=/home/qing/ros2_humble/chapter3/chapt3_4/install/status_interfaces:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_display:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_publisher:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapter3/chapt3_4/build/status_display -- -j16 -l16
+[0.058s] [ 50%] Built target hello_qt
+[0.059s] [ 75%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[6.929s] [100%] [32m[1mLinking CXX executable sys_status_display[0m
+[7.669s] [100%] Built target sys_status_display
+[7.680s] Invoked command in '/home/qing/ros2_humble/chapter3/chapt3_4/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/qing/ros2_humble/chapter3/chapt3_4/install/status_interfaces:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_display:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_publisher:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapter3/chapt3_4/build/status_display -- -j16 -l16
+[7.681s] Invoking command in '/home/qing/ros2_humble/chapter3/chapt3_4/build/status_display': CMAKE_PREFIX_PATH=/home/qing/ros2_humble/chapter3/chapt3_4/install/status_interfaces:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_display:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_publisher:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapter3/chapt3_4/build/status_display
+[7.687s] -- Install configuration: ""
+[7.687s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/lib/status_display/hello_qt
+[7.687s] -- Installing: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/lib/status_display/sys_status_display
+[7.690s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[7.690s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[7.690s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[7.690s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[7.690s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/status_display/environment/path.sh
+[7.691s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/status_display/environment/path.dsv
+[7.691s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/status_display/local_setup.bash
+[7.691s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/status_display/local_setup.sh
+[7.691s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/status_display/local_setup.zsh
+[7.691s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/status_display/local_setup.dsv
+[7.691s] -- Installing: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/status_display/package.dsv
+[7.691s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/ament_index/resource_index/packages/status_display
+[7.691s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[7.691s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[7.691s] -- Up-to-date: /home/qing/ros2_humble/chapter3/chapt3_4/install/status_display/share/status_display/package.xml
+[7.693s] Invoked command in '/home/qing/ros2_humble/chapter3/chapt3_4/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/qing/ros2_humble/chapter3/chapt3_4/install/status_interfaces:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_display:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_publisher:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapter3/chapt3_4/build/status_display

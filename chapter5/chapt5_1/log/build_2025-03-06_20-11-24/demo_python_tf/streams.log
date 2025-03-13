@@ -1,0 +1,30 @@
+[0.511s] Invoking command in '/home/qing/ros2_humble/chapter5/chapt5_1/src/demo_python_tf': CONDA_PROMPT_MODIFIER=(ros_test) PYTHONPATH=/home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/build install --record /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/install.log --single-version-externally-managed install_data
+[0.700s] running egg_info
+[0.700s] writing ../../build/demo_python_tf/demo_python_tf.egg-info/PKG-INFO
+[0.700s] writing dependency_links to ../../build/demo_python_tf/demo_python_tf.egg-info/dependency_links.txt
+[0.700s] writing entry points to ../../build/demo_python_tf/demo_python_tf.egg-info/entry_points.txt
+[0.701s] writing requirements to ../../build/demo_python_tf/demo_python_tf.egg-info/requires.txt
+[0.701s] writing top-level names to ../../build/demo_python_tf/demo_python_tf.egg-info/top_level.txt
+[0.702s] reading manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.702s] writing manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.703s] running build
+[0.703s] running build_py
+[0.703s] copying demo_python_tf/dynamic_tf_broadcaster.py -> /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/build/lib/demo_python_tf
+[0.703s] running install
+[0.703s] running install_lib
+[0.704s] copying /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/build/lib/demo_python_tf/dynamic_tf_broadcaster.py -> /home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf
+[0.704s] byte-compiling /home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf/dynamic_tf_broadcaster.py to dynamic_tf_broadcaster.cpython-310.pyc
+[0.704s]   File "/home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf/dynamic_tf_broadcaster.py", line 5
+[0.704s]     from tf2_ros.import TransformBroadcaster
+[0.704s]                  ^^^^^^
+[0.704s] SyntaxError: invalid syntax
+[0.705s] 
+[0.705s] running install_data
+[0.705s] running install_egg_info
+[0.706s] removing '/home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf-0.0.0-py3.10.egg-info' (and everything under it)
+[0.706s] Copying ../../build/demo_python_tf/demo_python_tf.egg-info to /home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf-0.0.0-py3.10.egg-info
+[0.707s] running install_scripts
+[0.721s] Installing dynamic_tf_broadcaster script to /home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/demo_python_tf
+[0.721s] Installing static_tf_broadcaster script to /home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/demo_python_tf
+[0.721s] writing list of installed files to '/home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/install.log'
+[0.739s] Invoked command in '/home/qing/ros2_humble/chapter5/chapt5_1/src/demo_python_tf' returned '0': CONDA_PROMPT_MODIFIER=(ros_test) PYTHONPATH=/home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/build install --record /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/install.log --single-version-externally-managed install_data

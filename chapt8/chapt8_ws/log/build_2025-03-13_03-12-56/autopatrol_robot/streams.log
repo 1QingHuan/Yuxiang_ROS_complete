@@ -1,0 +1,14 @@
+[1.187s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_robot': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/build install --record /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[1.477s] running egg_info
+[1.481s] writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[1.481s] running build
+[1.481s] running build_py
+[1.482s] running install
+[1.483s] running install_lib
+[1.485s] running install_data
+[1.485s] running install_egg_info
+[1.487s] removing '/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.487s] Copying ../../build/autopatrol_robot/autopatrol_robot.egg-info to /home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info
+[1.488s] running install_scripts
+[1.512s] writing list of installed files to '/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/install.log'
+[1.548s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_robot' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/build install --record /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data

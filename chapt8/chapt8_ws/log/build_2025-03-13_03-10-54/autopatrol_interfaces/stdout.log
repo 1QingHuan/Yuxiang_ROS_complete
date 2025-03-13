@@ -1,0 +1,80 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/qing/下载/enter/bin/python3 (found version "3.10.14") found components: Interpreter 
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /home/qing/下载/enter/bin/python3 (found suitable version "3.10.14", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /home/qing/下载/enter/lib/libpython3.10.so (found suitable version "3.10.14", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /home/qing/下载/enter/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /home/qing/下载/enter/include/python3.10
+-- Using PYTHON_LIBRARIES: /home/qing/下载/enter/lib/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Using numpy include directory: /opt/ros/humble/lib/python3.10/site-packages/numpy/_core/include
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target ament_cmake_python_copy_autopatrol_interfaces
+[  9%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopatrol_interfaces/srv/detail/speach_text__functions.c.o[0m
+[  9%] Built target autopatrol_interfaces__cpp
+[ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+running egg_info
+creating autopatrol_interfaces.egg-info
+writing manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+[ 22%] [32m[1mLinking C shared library libautopatrol_interfaces__rosidl_generator_c.so[0m
+[ 22%] Built target ament_cmake_python_build_autopatrol_interfaces_egg
+[ 22%] Built target autopatrol_interfaces__rosidl_generator_c
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopatrol_interfaces/srv/speach_text__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autopatrol_interfaces/srv/detail/dds_fastrtps/speach_text__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autopatrol_interfaces/srv/detail/speach_text__type_support.cpp.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autopatrol_interfaces/srv/detail/speach_text__type_support.c.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/autopatrol_interfaces/srv/speach_text__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopatrol_interfaces/srv/detail/speach_text__type_support_c.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_c.so[0m
+[ 58%] [32m[1mLinking C shared library libautopatrol_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 58%] Built target autopatrol_interfaces__rosidl_typesupport_c
+[ 61%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_cpp.so[0m
+[ 61%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_c
+[ 61%] Built target autopatrol_interfaces__rosidl_typesupport_cpp
+[ 64%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 67%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 70%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_cpp
+[ 70%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_c
+[ 70%] Built target autopatrol_interfaces
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target autopatrol_interfaces__py
+[ 77%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_generator_py.dir/rosidl_generator_py/autopatrol_interfaces/srv/_speach_text_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/libautopatrol_interfaces__rosidl_generator_py.so[0m
+[ 80%] Built target autopatrol_interfaces__rosidl_generator_py
+[ 90%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_c.c.o[0m

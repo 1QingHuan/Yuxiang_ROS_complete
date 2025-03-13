@@ -1,0 +1,37 @@
+[0.451s] Invoking command in '/home/qing/ros2_humble/chapt2_4ccc/src/demo_python_pkg': CONDA_PROMPT_MODIFIER=(ros_test) PYTHONPATH=/home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/build install --record /home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[0.630s] running egg_info
+[0.630s] creating ../build/demo_python_pkg/demo_python_pkg.egg-info
+[0.630s] writing ../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.630s] writing dependency_links to ../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.631s] writing entry points to ../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.631s] writing requirements to ../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.631s] writing top-level names to ../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.631s] writing manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.632s] reading manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.632s] writing manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.632s] running build
+[0.632s] running build_py
+[0.633s] creating /home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/build
+[0.633s] creating /home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/build/lib
+[0.633s] creating /home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.633s] copying demo_python_pkg/python_node.py -> /home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.633s] copying demo_python_pkg/__init__.py -> /home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.633s] running install
+[0.633s] running install_lib
+[0.634s] creating /home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.634s] copying /home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/build/lib/demo_python_pkg/python_node.py -> /home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.634s] copying /home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.634s] byte-compiling /home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/python_node.py to python_node.cpython-310.pyc
+[0.634s] byte-compiling /home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__init__.py to __init__.cpython-310.pyc
+[0.635s] running install_data
+[0.635s] creating /home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/share/ament_index
+[0.635s] creating /home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/share/ament_index/resource_index
+[0.635s] creating /home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.635s] copying resource/demo_python_pkg -> /home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.635s] copying package.xml -> /home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/share/demo_python_pkg
+[0.635s] running install_egg_info
+[0.636s] Copying ../build/demo_python_pkg/demo_python_pkg.egg-info to /home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.637s] running install_scripts
+[0.653s] Installing python_node script to /home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/lib/demo_python_pkg
+[0.653s] writing list of installed files to '/home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/install.log'
+[0.671s] Invoked command in '/home/qing/ros2_humble/chapt2_4ccc/src/demo_python_pkg' returned '0': CONDA_PROMPT_MODIFIER=(ros_test) PYTHONPATH=/home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapt2_4ccc/src/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/build install --record /home/qing/ros2_humble/chapt2_4ccc/src/build/demo_python_pkg/install.log --single-version-externally-managed install_data

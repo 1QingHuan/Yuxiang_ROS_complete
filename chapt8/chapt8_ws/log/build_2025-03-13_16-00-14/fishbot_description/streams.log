@@ -1,0 +1,63 @@
+[0.613s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description
+[0.627s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.749s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.838s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.839s] -- Added test 'lint_cmake' to check CMake code style
+[0.839s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.842s] -- Added test 'xmllint' to check XML markup files
+[0.843s] -- Configuring done
+[0.847s] -- Generating done
+[0.849s] -- Build files have been written to: /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description
+[0.853s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description
+[0.855s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description -- -j16 -l16
+[0.905s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description -- -j16 -l16
+[0.907s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description
+[0.914s] -- Install configuration: ""
+[0.914s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/launch
+[0.914s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[0.914s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
+[0.915s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf
+[0.915s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[0.915s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf.xacro
+[0.915s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot
+[0.915s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator
+[0.915s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/caster.urdf.xacro
+[0.915s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro
+[0.915s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+[0.915s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins
+[0.916s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[0.916s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[0.916s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
+[0.916s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro
+[0.916s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+[0.916s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor
+[0.916s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/camera.urdf.xacro
+[0.916s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[0.916s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser.urdf.xacro
+[0.917s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[0.917s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[0.917s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/config
+[0.919s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/config/rviz
+[0.919s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/config/rviz/dispaly_model.rviz
+[0.919s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/config/fishbot_ros2_controller.yaml
+[0.919s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/world
+[0.919s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/world/custom_room.world
+[0.919s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/world/room
+[0.919s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/world/room/model.sdf
+[0.919s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/world/room/model.config
+[0.919s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[0.920s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[0.920s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[0.920s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[0.920s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/environment/path.sh
+[0.920s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[0.921s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/local_setup.bash
+[0.921s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/local_setup.sh
+[0.921s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[0.921s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[0.921s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.dsv
+[0.921s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[0.921s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[0.921s] -- Up-to-date: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[0.921s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.xml
+[0.942s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application:/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_robot:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_description

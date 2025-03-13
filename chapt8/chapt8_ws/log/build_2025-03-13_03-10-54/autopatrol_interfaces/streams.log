@@ -1,0 +1,91 @@
+[0.035s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_interfaces -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_CXX_FLAGS=-I/usr/include/c++/11 -DCMAKE_SKIP_RPATH=ON -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces
+[1.172s] -- The C compiler identification is Clang 14.0.0
+[1.172s] -- The CXX compiler identification is GNU 11.4.0
+[1.172s] -- Detecting C compiler ABI info
+[1.172s] -- Detecting C compiler ABI info - done
+[1.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.172s] -- Detecting C compile features
+[1.172s] -- Detecting C compile features - done
+[1.172s] -- Detecting CXX compiler ABI info
+[1.172s] -- Detecting CXX compiler ABI info - done
+[1.172s] -- Check for working CXX compiler: /usr/bin/g++ - skipped
+[1.173s] -- Detecting CXX compile features
+[1.173s] -- Detecting CXX compile features - done
+[1.173s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.740s] -- Found Python3: /home/qing/下载/enter/bin/python3 (found version "3.10.14") found components: Interpreter 
+[1.864s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.869s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.880s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.958s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.010s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.311s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.736s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.763s] -- Found PythonInterp: /home/qing/下载/enter/bin/python3 (found suitable version "3.10.14", minimum required is "3.6") 
+[2.765s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.795s] -- Found PythonLibs: /home/qing/下载/enter/lib/libpython3.10.so (found suitable version "3.10.14", minimum required is "3.5") 
+[2.795s] -- Using PYTHON_EXECUTABLE: /home/qing/下载/enter/bin/python3
+[2.795s] -- Using PYTHON_INCLUDE_DIRS: /home/qing/下载/enter/include/python3.10
+[2.796s] -- Using PYTHON_LIBRARIES: /home/qing/下载/enter/lib/libpython3.10.so
+[2.821s] -- Found PythonExtra: .so  
+[2.996s] -- Using numpy include directory: /opt/ros/humble/lib/python3.10/site-packages/numpy/_core/include
+[3.003s] -- Added test 'lint_cmake' to check CMake code style
+[3.004s] -- Added test 'xmllint' to check XML markup files
+[3.010s] -- Configuring done
+[3.042s] -- Generating done
+[3.051s] -- Build files have been written to: /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces
+[3.059s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/qing/ros2_humble/chapt8/chapt8_ws/src/autopatrol_interfaces -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_CXX_FLAGS=-I/usr/include/c++/11 -DCMAKE_SKIP_RPATH=ON -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapt8/chapt8_ws/install/autopatrol_interfaces
+[3.061s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces -- -j16 -l16
+[3.098s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.109s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.117s] [  6%] Built target ament_cmake_python_copy_autopatrol_interfaces
+[3.378s] [  9%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopatrol_interfaces/srv/detail/speach_text__functions.c.o[0m
+[3.404s] [  9%] Built target autopatrol_interfaces__cpp
+[3.415s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.415s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.415s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.415s] running egg_info
+[3.416s] creating autopatrol_interfaces.egg-info
+[3.417s] writing manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+[3.421s] writing manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+[3.464s] [ 22%] [32m[1mLinking C shared library libautopatrol_interfaces__rosidl_generator_c.so[0m
+[3.473s] [ 22%] Built target ament_cmake_python_build_autopatrol_interfaces_egg
+[3.532s] [ 22%] Built target autopatrol_interfaces__rosidl_generator_c
+[3.545s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.545s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.550s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.703s] [ 35%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopatrol_interfaces/srv/speach_text__type_support.cpp.o[0m
+[3.731s] [ 38%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autopatrol_interfaces/srv/detail/dds_fastrtps/speach_text__type_support.cpp.o[0m
+[3.744s] [ 41%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autopatrol_interfaces/srv/detail/speach_text__type_support.cpp.o[0m
+[3.824s] [ 45%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autopatrol_interfaces/srv/detail/speach_text__type_support.c.o[0m
+[3.828s] [ 48%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/autopatrol_interfaces/srv/speach_text__type_support.cpp.o[0m
+[3.859s] [ 51%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopatrol_interfaces/srv/detail/speach_text__type_support_c.cpp.o[0m
+[3.870s] [ 54%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_c.so[0m
+[3.897s] [ 58%] [32m[1mLinking C shared library libautopatrol_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.924s] [ 58%] Built target autopatrol_interfaces__rosidl_typesupport_c
+[3.974s] [ 61%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_cpp.so[0m
+[3.978s] [ 61%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_c
+[4.014s] [ 61%] Built target autopatrol_interfaces__rosidl_typesupport_cpp
+[4.124s] [ 64%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.130s] [ 67%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.186s] [ 70%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.206s] [ 70%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_cpp
+[4.213s] [ 70%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.257s] [ 70%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_c
+[4.278s] [ 70%] Built target autopatrol_interfaces
+[4.300s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.697s] [ 74%] Built target autopatrol_interfaces__py
+[4.722s] [ 77%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_generator_py.dir/rosidl_generator_py/autopatrol_interfaces/srv/_speach_text_s.c.o[0m
+[5.106s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/libautopatrol_interfaces__rosidl_generator_py.so[0m
+[5.368s] [ 80%] Built target autopatrol_interfaces__rosidl_generator_py
+[5.404s] [ 90%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.405s] [ 90%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.405s] [ 90%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[117.639s] gmake[2]: *** [CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:76: CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o] 中断
+[117.639s] gmake[2]: *** [CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c__pyext.dir/build.make:76: CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_c.c.o] 中断
+[117.639s] gmake[2]: *** [CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:76: CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o] 中断
+[117.639s] gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] 中断
+[117.639s] gmake[1]: *** [CMakeFiles/Makefile2:564: CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c__pyext.dir/all] 中断
+[117.640s] gmake[1]: *** [CMakeFiles/Makefile2:535: CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] 中断
+[117.641s] gmake: *** [Makefile:146: all] 中断
+[117.644s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/autopatrol_interfaces -- -j16 -l16

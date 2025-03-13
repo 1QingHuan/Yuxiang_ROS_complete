@@ -1,0 +1,19 @@
+running egg_info
+writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+running build
+running build_py
+copying fishbot_application/get_robot_pose.py -> /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application
+copying fishbot_application/waypoint_follower.py -> /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application
+copying fishbot_application/nav_to_pose.py -> /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application
+copying fishbot_application/__init__.py -> /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application
+copying fishbot_application/init_robot_pose.py -> /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application
+running install
+running install_lib
+running install_data
+copying resource/fishbot_application -> /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/ament_index/resource_index/packages
+copying package.xml -> /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/share/fishbot_application
+running install_egg_info
+removing '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/fishbot_application/fishbot_application.egg-info to /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/install.log'

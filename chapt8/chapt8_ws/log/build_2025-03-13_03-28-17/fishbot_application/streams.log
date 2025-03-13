@@ -1,0 +1,14 @@
+[1.137s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_application': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/build install --record /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/install.log --single-version-externally-managed install_data
+[1.411s] running egg_info
+[1.414s] writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.414s] running build
+[1.414s] running build_py
+[1.415s] running install
+[1.416s] running install_lib
+[1.417s] running install_data
+[1.417s] running install_egg_info
+[1.419s] removing '/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info' (and everything under it)
+[1.419s] Copying ../../build/fishbot_application/fishbot_application.egg-info to /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info
+[1.420s] running install_scripts
+[1.437s] writing list of installed files to '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/install.log'
+[1.472s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_application' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/build install --record /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_application/install.log --single-version-externally-managed install_data

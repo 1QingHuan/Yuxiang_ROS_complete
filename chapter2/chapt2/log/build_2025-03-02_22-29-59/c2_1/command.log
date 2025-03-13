@@ -1,0 +1,2 @@
+Invoking command in '/home/qing/ros2_humble/chapt2/build/c2_1': CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake /home/qing/ros2_humble/chapt2/c2_1 -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapt2/install/c2_1
+Invoked command in '/home/qing/ros2_humble/chapt2/build/c2_1' returned '0': CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake /home/qing/ros2_humble/chapt2/c2_1 -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapt2/install/c2_1

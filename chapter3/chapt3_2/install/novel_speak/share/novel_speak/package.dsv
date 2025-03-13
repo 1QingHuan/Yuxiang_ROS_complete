@@ -1,0 +1,6 @@
+source;share/novel_speak/hook/pythonpath.ps1
+source;share/novel_speak/hook/pythonpath.dsv
+source;share/novel_speak/hook/pythonpath.sh
+source;share/novel_speak/hook/ament_prefix_path.ps1
+source;share/novel_speak/hook/ament_prefix_path.dsv
+source;share/novel_speak/hook/ament_prefix_path.sh

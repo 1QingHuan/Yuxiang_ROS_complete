@@ -1,0 +1,23 @@
+[0.469s] Invoking command in '/home/qing/ros2_humble/chapter3/chapt3_2/src/novel_speak': CONDA_PROMPT_MODIFIER=(ros_test) PYTHONPATH=/home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/novel_speak build --build-base /home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/build install --record /home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/install.log --single-version-externally-managed install_data
+[0.646s] running egg_info
+[0.647s] writing ../../build/novel_speak/novel_speak.egg-info/PKG-INFO
+[0.647s] writing dependency_links to ../../build/novel_speak/novel_speak.egg-info/dependency_links.txt
+[0.647s] writing entry points to ../../build/novel_speak/novel_speak.egg-info/entry_points.txt
+[0.647s] writing requirements to ../../build/novel_speak/novel_speak.egg-info/requires.txt
+[0.647s] writing top-level names to ../../build/novel_speak/novel_speak.egg-info/top_level.txt
+[0.648s] reading manifest file '../../build/novel_speak/novel_speak.egg-info/SOURCES.txt'
+[0.654s] writing manifest file '../../build/novel_speak/novel_speak.egg-info/SOURCES.txt'
+[0.654s] running build
+[0.654s] running build_py
+[0.654s] running install
+[0.655s] running install_lib
+[0.655s] running install_data
+[0.656s] copying package.xml -> /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/share/novel_speak
+[0.656s] running install_egg_info
+[0.657s] removing '/home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/lib/python3.10/site-packages/novel_speak-0.0.0-py3.10.egg-info' (and everything under it)
+[0.657s] Copying ../../build/novel_speak/novel_speak.egg-info to /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/lib/python3.10/site-packages/novel_speak-0.0.0-py3.10.egg-info
+[0.658s] running install_scripts
+[0.674s] Installing novel_pub_node script to /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/lib/novel_speak
+[0.675s] Installing novel_sub_node script to /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/lib/novel_speak
+[0.675s] writing list of installed files to '/home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/install.log'
+[0.694s] Invoked command in '/home/qing/ros2_humble/chapter3/chapt3_2/src/novel_speak' returned '0': CONDA_PROMPT_MODIFIER=(ros_test) PYTHONPATH=/home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/novel_speak build --build-base /home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/build install --record /home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/install.log --single-version-externally-managed install_data

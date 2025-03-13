@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libnav2_custom_planner_plugin.so[0m
+[100%] Built target nav2_custom_planner_plugin
+-- Install configuration: ""
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/include/
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/include//nav2_custom_planner
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/include//nav2_custom_planner/nav2_custom_planner.hpp
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/custom_planner_plugin.xml
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/package_run_dependencies/nav2_custom_planner
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/parent_prefix_path/nav2_custom_planner
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.sh
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.dsv
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.sh
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.dsv
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.bash
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.sh
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.zsh
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.dsv
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/packages/nav2_custom_planner
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_planner
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig.cmake
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig-version.cmake
+-- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.xml

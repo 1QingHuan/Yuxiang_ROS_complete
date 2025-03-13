@@ -1,0 +1,7 @@
+gmake[2]: *** [CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:76: CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o] 中断
+gmake[2]: *** [CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c__pyext.dir/build.make:76: CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_c.c.o] 中断
+gmake[2]: *** [CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:76: CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:564: CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c__pyext.dir/all] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:535: CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

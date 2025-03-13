@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/novel_speak/novel_speak.egg-info/PKG-INFO
+../../build/novel_speak/novel_speak.egg-info/SOURCES.txt
+../../build/novel_speak/novel_speak.egg-info/dependency_links.txt
+../../build/novel_speak/novel_speak.egg-info/entry_points.txt
+../../build/novel_speak/novel_speak.egg-info/requires.txt
+../../build/novel_speak/novel_speak.egg-info/top_level.txt
+../../build/novel_speak/novel_speak.egg-info/zip-safe
+novel_speak/__init__.py
+novel_speak/novel_pub_node.py
+novel_speak/novel_sub_node.py
+resource/novel_speak
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

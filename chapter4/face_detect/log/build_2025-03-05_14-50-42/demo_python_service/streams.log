@@ -1,0 +1,26 @@
+[0.486s] Invoking command in '/home/qing/ros2_humble/chapter4/face_detect/src/demo_python_service': CONDA_PROMPT_MODIFIER=(ros_test) PYTHONPATH=/home/qing/ros2_humble/chapter4/face_detect/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/python3.10/site-packages:/home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages:/home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/python3.10/site-packages:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_publisher/lib/python3.10/site-packages:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/qing/ros2_humble/chapter4/face_detect/build/demo_python_service/build install --record /home/qing/ros2_humble/chapter4/face_detect/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.685s] running egg_info
+[0.686s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.686s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.686s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.686s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.686s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.688s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.688s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.689s] running build
+[0.689s] running build_py
+[0.689s] copying demo_python_service/face_detect_client_node.py -> /home/qing/ros2_humble/chapter4/face_detect/build/demo_python_service/build/lib/demo_python_service
+[0.689s] running install
+[0.689s] running install_lib
+[0.690s] copying /home/qing/ros2_humble/chapter4/face_detect/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.690s] byte-compiling /home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-310.pyc
+[0.691s] running install_data
+[0.691s] running install_egg_info
+[0.692s] removing '/home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.693s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[0.693s] running install_scripts
+[0.710s] Installing face_detect script to /home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/demo_python_service
+[0.710s] Installing face_detect_client_node script to /home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/demo_python_service
+[0.710s] Installing face_detect_node script to /home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/demo_python_service
+[0.710s] writing list of installed files to '/home/qing/ros2_humble/chapter4/face_detect/build/demo_python_service/install.log'
+[0.733s] Invoked command in '/home/qing/ros2_humble/chapter4/face_detect/src/demo_python_service' returned '0': CONDA_PROMPT_MODIFIER=(ros_test) PYTHONPATH=/home/qing/ros2_humble/chapter4/face_detect/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/python3.10/site-packages:/home/qing/ros2_humble/chapter4/face_detect/install/chapt4_interfaces/lib/python3.10/site-packages:/home/qing/ros2_humble/chapter4/face_detect/install/demo_python_service/lib/python3.10/site-packages:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_publisher/lib/python3.10/site-packages:/home/qing/ros2_humble/chapter3/chapt3_4/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/qing/ros2_humble/chapter4/face_detect/build/demo_python_service/build install --record /home/qing/ros2_humble/chapter4/face_detect/build/demo_python_service/install.log --single-version-externally-managed install_data

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "chapt4_interfaces__py",
+		"source" : "/home/qing/ros2_humble/chapter4/face_detect/build/chapt4_interfaces/chapt4_interfaces__py"
+	}
+}

@@ -1,0 +1,4 @@
+[console_scripts]
+novel_pub_node = novel_speak.novel_pub_node:main
+novel_sub_node = novel_speak.novel_sub_node:main
+

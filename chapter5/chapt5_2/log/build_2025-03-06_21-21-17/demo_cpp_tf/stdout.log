@@ -1,0 +1,14 @@
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/qing/下载/enter/envs/ros_test/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring incomplete, errors occurred!
+See also "/home/qing/ros2_humble/chapter5/chapt5_2/build/demo_cpp_tf/CMakeFiles/CMakeOutput.log".

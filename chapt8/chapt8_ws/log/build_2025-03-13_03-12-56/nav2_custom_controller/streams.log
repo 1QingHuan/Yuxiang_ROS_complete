@@ -1,0 +1,29 @@
+[0.610s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller -- -j16 -l16
+[0.669s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_controller_plugin.dir/src/custom_controller.cpp.o[0m
+[4.950s] [100%] [32m[1mLinking CXX shared library libnav2_custom_controller_plugin.so[0m
+[5.192s] [100%] Built target nav2_custom_controller_plugin
+[5.201s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller -- -j16 -l16
+[5.203s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller
+[5.209s] -- Install configuration: ""
+[5.209s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/lib/libnav2_custom_controller_plugin.so
+[5.210s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/include/
+[5.210s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/include//nav2_custom_controller
+[5.210s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/include//nav2_custom_controller/custom_controller.hpp
+[5.210s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/nav2_custom_controller.xml
+[5.211s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/package_run_dependencies/nav2_custom_controller
+[5.212s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/parent_prefix_path/nav2_custom_controller
+[5.212s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/ament_prefix_path.sh
+[5.212s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/ament_prefix_path.dsv
+[5.212s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/path.sh
+[5.212s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/path.dsv
+[5.212s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.bash
+[5.212s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.sh
+[5.212s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.zsh
+[5.212s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.dsv
+[5.212s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.dsv
+[5.212s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/packages/nav2_custom_controller
+[5.213s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_controller
+[5.213s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/cmake/nav2_custom_controllerConfig.cmake
+[5.213s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/cmake/nav2_custom_controllerConfig-version.cmake
+[5.213s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.xml
+[5.216s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/nav2_custom_controller

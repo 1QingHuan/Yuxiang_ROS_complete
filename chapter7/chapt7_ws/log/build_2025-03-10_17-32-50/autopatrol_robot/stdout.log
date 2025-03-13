@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/autopatrol_robot/autopatrol_robot.egg-info
+writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_robot/build
+creating /home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_robot/build/lib
+creating /home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+copying autopatrol_robot/speaker.py -> /home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+copying autopatrol_robot/patrol_node.py -> /home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+copying autopatrol_robot/__init__.py -> /home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+running install
+running install_lib
+creating /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+byte-compiling /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/speaker.py to speaker.cpython-310.pyc
+byte-compiling /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/patrol_node.py to patrol_node.cpython-310.pyc
+byte-compiling /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/share/ament_index
+creating /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/share/ament_index/resource_index
+creating /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/share/ament_index/resource_index/packages
+copying resource/autopatrol_robot -> /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/share/autopatrol_robot
+creating /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/share/autopatrol_robot/config
+copying config/patrol_config.yaml -> /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/share/autopatrol_robot/config
+creating /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/share/autopatrol_robot/launch
+copying launch/autopatrol.launch.py -> /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/share/autopatrol_robot/launch
+running install_egg_info
+Copying ../../build/autopatrol_robot/autopatrol_robot.egg-info to /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_robot/install.log'

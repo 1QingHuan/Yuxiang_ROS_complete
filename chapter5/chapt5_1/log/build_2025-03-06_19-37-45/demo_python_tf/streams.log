@@ -1,0 +1,14 @@
+[0.687s] Invoking command in '/home/qing/ros2_humble/chapter5/chapt5_1/src/demo_python_tf': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/build install --record /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/install.log --single-version-externally-managed install_data
+[0.938s] running egg_info
+[0.941s] writing manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.941s] running build
+[0.941s] running build_py
+[0.941s] running install
+[0.943s] running install_lib
+[0.944s] running install_data
+[0.944s] running install_egg_info
+[0.945s] removing '/home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf-0.0.0-py3.10.egg-info' (and everything under it)
+[0.945s] Copying ../../build/demo_python_tf/demo_python_tf.egg-info to /home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf-0.0.0-py3.10.egg-info
+[0.946s] running install_scripts
+[0.963s] writing list of installed files to '/home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/install.log'
+[0.985s] Invoked command in '/home/qing/ros2_humble/chapter5/chapt5_1/src/demo_python_tf' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapter5/chapt5_1/install/demo_python_tf/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/build install --record /home/qing/ros2_humble/chapter5/chapt5_1/build/demo_python_tf/install.log --single-version-externally-managed install_data

@@ -1,0 +1,14 @@
+[0.013s] Invoking command in '/home/qing/ros2_humble/chapt2/build/c2_1': CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake /home/qing/ros2_humble/chapt2/c2_1 -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapt2/install/c2_1
+[0.024s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.165s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.167s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.171s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.212s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.213s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.302s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.341s] -- Configuring done
+[0.379s] -- Generating done
+[0.380s] -- Build files have been written to: /home/qing/ros2_humble/chapt2/c2_1
+[0.387s] Invoked command in '/home/qing/ros2_humble/chapt2/build/c2_1' returned '0': CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake /home/qing/ros2_humble/chapt2/c2_1 -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapt2/install/c2_1

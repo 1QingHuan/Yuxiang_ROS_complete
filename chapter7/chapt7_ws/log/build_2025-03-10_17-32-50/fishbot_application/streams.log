@@ -1,0 +1,34 @@
+[1.159s] Invoking command in '/home/qing/ros2_humble/chapter7/chapt7_ws/src/fishbot_application': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/build install --record /home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/install.log --single-version-externally-managed install_data
+[1.454s] running egg_info
+[1.454s] creating ../../build/fishbot_application/fishbot_application.egg-info
+[1.455s] writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.457s] writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.457s] running build
+[1.458s] running build_py
+[1.458s] creating /home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/build
+[1.458s] creating /home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/build/lib
+[1.458s] creating /home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/build/lib/fishbot_application
+[1.458s] copying fishbot_application/get_robot_pose.py -> /home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/build/lib/fishbot_application
+[1.458s] copying fishbot_application/waypoint_follower.py -> /home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/build/lib/fishbot_application
+[1.458s] copying fishbot_application/nav_to_pose.py -> /home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/build/lib/fishbot_application
+[1.458s] copying fishbot_application/__init__.py -> /home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/build/lib/fishbot_application
+[1.458s] copying fishbot_application/init_robot_pose.py -> /home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/build/lib/fishbot_application
+[1.458s] running install
+[1.460s] running install_lib
+[1.461s] creating /home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.462s] byte-compiling /home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/get_robot_pose.py to get_robot_pose.cpython-310.pyc
+[1.462s] byte-compiling /home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/waypoint_follower.py to waypoint_follower.cpython-310.pyc
+[1.463s] byte-compiling /home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/nav_to_pose.py to nav_to_pose.cpython-310.pyc
+[1.463s] byte-compiling /home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/__init__.py to __init__.cpython-310.pyc
+[1.463s] byte-compiling /home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/init_robot_pose.py to init_robot_pose.cpython-310.pyc
+[1.463s] running install_data
+[1.463s] creating /home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/share/ament_index
+[1.463s] creating /home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/share/ament_index/resource_index
+[1.464s] creating /home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/share/ament_index/resource_index/packages
+[1.464s] copying resource/fishbot_application -> /home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/share/ament_index/resource_index/packages
+[1.464s] copying package.xml -> /home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/share/fishbot_application
+[1.464s] running install_egg_info
+[1.465s] Copying ../../build/fishbot_application/fishbot_application.egg-info to /home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info
+[1.466s] running install_scripts
+[1.487s] writing list of installed files to '/home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/install.log'
+[1.524s] Invoked command in '/home/qing/ros2_humble/chapter7/chapt7_ws/src/fishbot_application' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/prefix_override:/home/qing/下载/enter/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/qing/ros2_humble/chapter7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /home/qing/下载/enter/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/build install --record /home/qing/ros2_humble/chapter7/chapt7_ws/build/fishbot_application/install.log --single-version-externally-managed install_data

@@ -1,0 +1,74 @@
+[0.012s] Invoking command in '/home/qing/ros2_humble/chapt2/c2_2/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt2/c2_2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake /home/qing/ros2_humble/chapt2/c2_2/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg
+[0.065s] -- The C compiler identification is GNU 11.2.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.118s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /home/qing/下载/enter/envs/ros_test/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.264s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.271s] -- Detecting CXX compile features
+[0.271s] -- Detecting CXX compile features - done
+[0.274s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.548s] -- Found Python3: /home/qing/下载/enter/envs/ros_test/bin/python3 (found version "3.10.16") found components: Interpreter 
+[0.623s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.655s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.659s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.667s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.677s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.691s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.731s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.733s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.810s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.833s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.869s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.876s] -- Looking for pthread.h
+[0.948s] -- Looking for pthread.h - found
+[0.948s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.018s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.018s] -- Looking for pthread_create in pthreads
+[1.075s] -- Looking for pthread_create in pthreads - not found
+[1.075s] -- Looking for pthread_create in pthread
+[1.143s] -- Looking for pthread_create in pthread - found
+[1.144s] -- Found Threads: TRUE  
+[1.183s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.269s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.270s] -- Configured cppcheck include dirs: 
+[1.270s] -- Configured cppcheck exclude dirs and/or files: 
+[1.271s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.274s] -- Added test 'lint_cmake' to check CMake code style
+[1.276s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.287s] -- Added test 'uncrustify' to check C / C++ code style
+[1.287s] -- Configured uncrustify additional arguments: 
+[1.288s] -- Added test 'xmllint' to check XML markup files
+[1.290s] -- Configuring done
+[1.297s] -- Generating done
+[1.300s] -- Build files have been written to: /home/qing/ros2_humble/chapt2/c2_2/build/demo_cpp_pkg
+[1.308s] Invoked command in '/home/qing/ros2_humble/chapt2/c2_2/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt2/c2_2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake /home/qing/ros2_humble/chapt2/c2_2/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg
+[1.310s] Invoking command in '/home/qing/ros2_humble/chapt2/c2_2/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt2/c2_2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake --build /home/qing/ros2_humble/chapt2/c2_2/build/demo_cpp_pkg -- -j16 -l16
+[1.353s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[3.569s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[3.654s] [100%] Built target cpp_node
+[3.665s] Invoked command in '/home/qing/ros2_humble/chapt2/c2_2/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt2/c2_2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake --build /home/qing/ros2_humble/chapt2/c2_2/build/demo_cpp_pkg -- -j16 -l16
+[3.674s] Invoking command in '/home/qing/ros2_humble/chapt2/c2_2/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt2/c2_2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake --install /home/qing/ros2_humble/chapt2/c2_2/build/demo_cpp_pkg
+[3.681s] -- Install configuration: ""
+[3.681s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[3.681s] -- Set runtime path of "/home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node" to ""
+[3.681s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[3.681s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[3.682s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[3.682s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[3.682s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[3.682s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[3.682s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[3.682s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[3.682s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[3.683s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[3.683s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[3.683s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[3.683s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[3.683s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[3.683s] -- Installing: /home/qing/ros2_humble/chapt2/c2_2/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[3.685s] Invoked command in '/home/qing/ros2_humble/chapt2/c2_2/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapt2/c2_2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake --install /home/qing/ros2_humble/chapt2/c2_2/build/demo_cpp_pkg

@@ -1,0 +1,51 @@
+[1.142s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_navigation2 -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_CXX_FLAGS=-I/usr/include/c++/11 -DCMAKE_SKIP_RPATH=ON -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2
+[1.238s] -- The C compiler identification is Clang 14.0.0
+[1.295s] -- The CXX compiler identification is GNU 11.4.0
+[1.304s] -- Detecting C compiler ABI info
+[1.423s] -- Detecting C compiler ABI info - done
+[1.430s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.431s] -- Detecting C compile features
+[1.431s] -- Detecting C compile features - done
+[1.435s] -- Detecting CXX compiler ABI info
+[1.527s] -- Detecting CXX compiler ABI info - done
+[1.536s] -- Check for working CXX compiler: /usr/bin/g++ - skipped
+[1.536s] -- Detecting CXX compile features
+[1.537s] -- Detecting CXX compile features - done
+[1.540s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.246s] -- Found Python3: /home/qing/下载/enter/bin/python3 (found version "3.10.14") found components: Interpreter 
+[2.333s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.428s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.429s] -- Added test 'lint_cmake' to check CMake code style
+[2.429s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.431s] -- Added test 'xmllint' to check XML markup files
+[2.432s] -- Configuring done
+[2.435s] -- Generating done
+[2.437s] -- Build files have been written to: /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2
+[2.443s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/qing/ros2_humble/chapt8/chapt8_ws/src/fishbot_navigation2 -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_CXX_FLAGS=-I/usr/include/c++/11 -DCMAKE_SKIP_RPATH=ON -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2
+[2.445s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2 -- -j16 -l16
+[2.480s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2 -- -j16 -l16
+[2.483s] Invoking command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2
+[2.490s] -- Install configuration: ""
+[2.491s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[2.491s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[2.491s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[2.491s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.yaml
+[2.491s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.pgm
+[2.492s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/config
+[2.493s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml
+[2.493s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[2.493s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[2.493s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[2.493s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[2.494s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[2.494s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[2.494s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[2.494s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[2.494s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[2.495s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[2.495s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[2.495s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[2.495s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[2.495s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[2.496s] -- Installing: /home/qing/ros2_humble/chapt8/chapt8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[2.507s] Invoked command in '/home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapt8/chapt8_ws/build/fishbot_navigation2

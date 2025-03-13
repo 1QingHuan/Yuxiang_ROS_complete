@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/novel_speak/novel_speak.egg-info
+writing ../../build/novel_speak/novel_speak.egg-info/PKG-INFO
+writing dependency_links to ../../build/novel_speak/novel_speak.egg-info/dependency_links.txt
+writing entry points to ../../build/novel_speak/novel_speak.egg-info/entry_points.txt
+writing requirements to ../../build/novel_speak/novel_speak.egg-info/requires.txt
+writing top-level names to ../../build/novel_speak/novel_speak.egg-info/top_level.txt
+writing manifest file '../../build/novel_speak/novel_speak.egg-info/SOURCES.txt'
+reading manifest file '../../build/novel_speak/novel_speak.egg-info/SOURCES.txt'
+writing manifest file '../../build/novel_speak/novel_speak.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/build
+creating /home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/build/lib
+creating /home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/build/lib/novel_speak
+copying novel_speak/__init__.py -> /home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/build/lib/novel_speak
+copying novel_speak/novel_pub_node.py -> /home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/build/lib/novel_speak
+running install
+running install_lib
+creating /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/lib/python3.10/site-packages/novel_speak
+copying /home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/build/lib/novel_speak/__init__.py -> /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/lib/python3.10/site-packages/novel_speak
+copying /home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/build/lib/novel_speak/novel_pub_node.py -> /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/lib/python3.10/site-packages/novel_speak
+byte-compiling /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/lib/python3.10/site-packages/novel_speak/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/lib/python3.10/site-packages/novel_speak/novel_pub_node.py to novel_pub_node.cpython-310.pyc
+running install_data
+creating /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/share/ament_index
+creating /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/share/ament_index/resource_index
+creating /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/share/ament_index/resource_index/packages
+copying resource/novel_speak -> /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/share/ament_index/resource_index/packages
+copying package.xml -> /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/share/novel_speak
+running install_egg_info
+Copying ../../build/novel_speak/novel_speak.egg-info to /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/lib/python3.10/site-packages/novel_speak-0.0.0-py3.10.egg-info
+running install_scripts
+Installing novel_pub_node script to /home/qing/ros2_humble/chapter3/chapt3_2/install/novel_speak/lib/novel_speak
+writing list of installed files to '/home/qing/ros2_humble/chapter3/chapt3_2/build/novel_speak/install.log'

@@ -1,0 +1,220 @@
+[0.028s] Invoking command in '/home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/qing/ros2_humble/chapter7/chapt7_ws/src/autopatrol_interfaces -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_CXX_FLAGS=-I/usr/include/c++/11 -DCMAKE_SKIP_RPATH=ON -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces
+[0.623s] -- The C compiler identification is Clang 14.0.0
+[0.623s] -- The CXX compiler identification is GNU 11.4.0
+[0.623s] -- Detecting C compiler ABI info
+[0.623s] -- Detecting C compiler ABI info - done
+[0.623s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.623s] -- Detecting C compile features
+[0.624s] -- Detecting C compile features - done
+[0.624s] -- Detecting CXX compiler ABI info
+[0.624s] -- Detecting CXX compiler ABI info - done
+[0.624s] -- Check for working CXX compiler: /usr/bin/g++ - skipped
+[0.624s] -- Detecting CXX compile features
+[0.624s] -- Detecting CXX compile features - done
+[0.625s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.057s] -- Found Python3: /home/qing/下载/enter/bin/python3 (found version "3.10.14") found components: Interpreter 
+[1.155s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.164s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.230s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.501s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.932s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.957s] -- Found PythonInterp: /home/qing/下载/enter/bin/python3 (found suitable version "3.10.14", minimum required is "3.6") 
+[1.958s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.983s] -- Found PythonLibs: /home/qing/下载/enter/lib/libpython3.10.so (found suitable version "3.10.14", minimum required is "3.5") 
+[1.983s] -- Using PYTHON_EXECUTABLE: /home/qing/下载/enter/bin/python3
+[1.983s] -- Using PYTHON_INCLUDE_DIRS: /home/qing/下载/enter/include/python3.10
+[1.983s] -- Using PYTHON_LIBRARIES: /home/qing/下载/enter/lib/libpython3.10.so
+[2.005s] -- Found PythonExtra: .so  
+[2.117s] -- Using numpy include directory: /opt/ros/humble/lib/python3.10/site-packages/numpy/_core/include
+[2.125s] -- Added test 'lint_cmake' to check CMake code style
+[2.126s] -- Added test 'xmllint' to check XML markup files
+[2.131s] -- Configuring done
+[2.159s] -- Generating done
+[2.168s] -- Build files have been written to: /home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_interfaces
+[2.176s] Invoked command in '/home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/qing/ros2_humble/chapter7/chapt7_ws/src/autopatrol_interfaces -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_CXX_FLAGS=-I/usr/include/c++/11 -DCMAKE_SKIP_RPATH=ON -DCMAKE_INSTALL_PREFIX=/home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces
+[2.177s] Invoking command in '/home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_interfaces -- -j16 -l16
+[2.219s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.231s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.242s] [  6%] Built target ament_cmake_python_copy_autopatrol_interfaces
+[2.501s] [  9%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopatrol_interfaces/srv/detail/speach_text__functions.c.o[0m
+[2.507s] [  9%] Built target autopatrol_interfaces__cpp
+[2.518s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.518s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.518s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.560s] [ 22%] [32m[1mLinking C shared library libautopatrol_interfaces__rosidl_generator_c.so[0m
+[2.568s] running egg_info
+[2.569s] creating autopatrol_interfaces.egg-info
+[2.570s] writing manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+[2.572s] writing manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+[2.607s] [ 22%] Built target ament_cmake_python_build_autopatrol_interfaces_egg
+[2.616s] [ 22%] Built target autopatrol_interfaces__rosidl_generator_c
+[2.626s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.626s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.626s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.754s] [ 35%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopatrol_interfaces/srv/speach_text__type_support.cpp.o[0m
+[2.774s] [ 38%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autopatrol_interfaces/srv/detail/speach_text__type_support.cpp.o[0m
+[2.795s] [ 41%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autopatrol_interfaces/srv/detail/dds_fastrtps/speach_text__type_support.cpp.o[0m
+[2.878s] [ 45%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/autopatrol_interfaces/srv/speach_text__type_support.cpp.o[0m
+[2.899s] [ 51%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autopatrol_interfaces/srv/detail/speach_text__type_support.c.o[0m
+[2.899s] [ 51%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopatrol_interfaces/srv/detail/speach_text__type_support_c.cpp.o[0m
+[2.910s] [ 54%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_c.so[0m
+[2.947s] [ 58%] [32m[1mLinking C shared library libautopatrol_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.950s] [ 58%] Built target autopatrol_interfaces__rosidl_typesupport_c
+[3.005s] [ 58%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_c
+[3.020s] [ 61%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_cpp.so[0m
+[3.061s] [ 61%] Built target autopatrol_interfaces__rosidl_typesupport_cpp
+[3.114s] [ 64%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.157s] [ 67%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.178s] [ 67%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_cpp
+[3.193s] [ 70%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.237s] [ 70%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.270s] [ 70%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_c
+[3.288s] [ 70%] Built target autopatrol_interfaces
+[3.308s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.616s] [ 74%] Built target autopatrol_interfaces__py
+[3.635s] [ 77%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_generator_py.dir/rosidl_generator_py/autopatrol_interfaces/srv/_speach_text_s.c.o[0m
+[3.762s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/libautopatrol_interfaces__rosidl_generator_py.so[0m
+[3.817s] [ 80%] Built target autopatrol_interfaces__rosidl_generator_py
+[3.835s] [ 90%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.835s] [ 90%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.835s] [ 90%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.933s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.933s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.934s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.985s] [100%] Built target autopatrol_interfaces__rosidl_typesupport_c__pyext
+[3.985s] [100%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.986s] [100%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.998s] Invoked command in '/home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_interfaces -- -j16 -l16
+[4.000s] Invoking command in '/home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_interfaces
+[4.007s] -- Install configuration: ""
+[4.007s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/ament_index/resource_index/rosidl_interfaces/autopatrol_interfaces
+[4.007s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[4.008s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[4.008s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[4.008s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__struct.h
+[4.008s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__type_support.h
+[4.008s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__functions.h
+[4.008s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__functions.c
+[4.008s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/speach_text.h
+[4.008s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[4.008s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.008s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/library_path.sh
+[4.008s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/library_path.dsv
+[4.009s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_c.so
+[4.009s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[4.009s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[4.009s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[4.009s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__rosidl_typesupport_fastrtps_c.h
+[4.009s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[4.009s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.009s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.009s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[4.009s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[4.010s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[4.010s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__rosidl_typesupport_introspection_c.h
+[4.010s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__type_support.c
+[4.010s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[4.010s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.010s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_c.so
+[4.010s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_c.so
+[4.010s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[4.010s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[4.010s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[4.011s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__struct.hpp
+[4.011s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__type_support.hpp
+[4.011s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__traits.hpp
+[4.011s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__builder.hpp
+[4.011s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/speach_text.hpp
+[4.011s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[4.011s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.011s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[4.011s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[4.011s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[4.011s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/dds_fastrtps
+[4.011s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__rosidl_typesupport_fastrtps_cpp.hpp
+[4.012s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[4.012s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.012s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.012s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[4.012s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[4.012s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[4.012s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__type_support.cpp
+[4.012s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speach_text__rosidl_typesupport_introspection_cpp.hpp
+[4.012s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.012s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_cpp.so
+[4.013s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/pythonpath.sh
+[4.013s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/pythonpath.dsv
+[4.013s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info
+[4.013s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.013s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.013s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.013s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.014s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces
+[4.014s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.014s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/libautopatrol_interfaces__rosidl_generator_py.so
+[4.014s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/srv
+[4.014s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/srv/_speach_text.py
+[4.014s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/srv/__init__.py
+[4.014s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/srv/_speach_text_s.c
+[4.014s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/__init__.py
+[4.014s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.015s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.015s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.015s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_c.c
+[4.015s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.046s] Listing '/home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces'...
+[4.046s] Compiling '/home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/__init__.py'...
+[4.046s] Listing '/home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/srv'...
+[4.047s] Compiling '/home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/srv/__init__.py'...
+[4.047s] Compiling '/home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/srv/_speach_text.py'...
+[4.051s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.051s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.051s] -- Up-to-date: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/python3.10/site-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.051s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_py.so
+[4.052s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeachText.idl
+[4.052s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeachText.srv
+[4.052s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeachText_Request.msg
+[4.052s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeachText_Response.msg
+[4.052s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/ament_index/resource_index/package_run_dependencies/autopatrol_interfaces
+[4.053s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/ament_index/resource_index/parent_prefix_path/autopatrol_interfaces
+[4.053s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/ament_prefix_path.sh
+[4.053s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/ament_prefix_path.dsv
+[4.053s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/path.sh
+[4.054s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/path.dsv
+[4.054s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.bash
+[4.054s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.sh
+[4.054s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.zsh
+[4.054s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.dsv
+[4.055s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.dsv
+[4.055s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/ament_index/resource_index/packages/autopatrol_interfaces
+[4.055s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cExport.cmake
+[4.055s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.055s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.056s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.056s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.056s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.056s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cExport.cmake
+[4.056s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.057s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cppExport.cmake
+[4.057s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.057s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.057s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.057s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.058s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cppExport.cmake
+[4.058s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.058s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_pyExport.cmake
+[4.058s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.058s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.059s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.059s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.059s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.059s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.059s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.060s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.060s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfacesConfig.cmake
+[4.060s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfacesConfig-version.cmake
+[4.060s] -- Installing: /home/qing/ros2_humble/chapter7/chapt7_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.xml
+[4.063s] Invoked command in '/home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qing/ros2_humble/chapter7/chapt7_ws/build/autopatrol_interfaces

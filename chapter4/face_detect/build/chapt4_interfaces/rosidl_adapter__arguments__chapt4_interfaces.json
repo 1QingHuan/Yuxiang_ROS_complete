@@ -1,0 +1,6 @@
+{
+  "package_name": "chapt4_interfaces",
+  "non_idl_tuples": [
+    "/home/qing/ros2_humble/chapter4/face_detect/src/chapt4_interfaces:srv/FaceDetect.srv"
+  ]
+}

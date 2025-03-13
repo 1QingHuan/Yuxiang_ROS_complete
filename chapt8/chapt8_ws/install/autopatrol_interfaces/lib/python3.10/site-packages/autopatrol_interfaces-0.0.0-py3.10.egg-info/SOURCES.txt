@@ -1,0 +1,8 @@
+setup.py
+autopatrol_interfaces/__init__.py
+autopatrol_interfaces.egg-info/PKG-INFO
+autopatrol_interfaces.egg-info/SOURCES.txt
+autopatrol_interfaces.egg-info/dependency_links.txt
+autopatrol_interfaces.egg-info/top_level.txt
+autopatrol_interfaces/srv/__init__.py
+autopatrol_interfaces/srv/_speach_text.py

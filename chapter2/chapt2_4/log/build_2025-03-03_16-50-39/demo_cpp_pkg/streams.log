@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/qing/ros2_humble/chapter2/chapt2_4/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapter2/chapt2_4/install/demo_python_pkg:/home/qing/ros2_humble/chapt2_4/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake --build /home/qing/ros2_humble/chapter2/chapt2_4/build/demo_cpp_pkg -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.061s] [100%] Built target cpp_node
+[0.061s] [100%] Built target person_node
+[0.071s] Invoked command in '/home/qing/ros2_humble/chapter2/chapt2_4/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapter2/chapt2_4/install/demo_python_pkg:/home/qing/ros2_humble/chapt2_4/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake --build /home/qing/ros2_humble/chapter2/chapt2_4/build/demo_cpp_pkg -- -j16 -l16
+[0.081s] Invoking command in '/home/qing/ros2_humble/chapter2/chapt2_4/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapter2/chapt2_4/install/demo_python_pkg:/home/qing/ros2_humble/chapt2_4/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake --install /home/qing/ros2_humble/chapter2/chapt2_4/build/demo_cpp_pkg
+[0.087s] -- Install configuration: ""
+[0.087s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[0.087s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[0.087s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[0.088s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[0.088s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[0.088s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[0.088s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[0.088s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[0.088s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[0.088s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[0.088s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[0.088s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[0.088s] -- Installing: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[0.089s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[0.089s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[0.089s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[0.089s] -- Up-to-date: /home/qing/ros2_humble/chapter2/chapt2_4/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[0.091s] Invoked command in '/home/qing/ros2_humble/chapter2/chapt2_4/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qing/ros2_humble/chapter2/chapt2_4/install/demo_python_pkg:/home/qing/ros2_humble/chapt2_4/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros_test) /usr/bin/cmake --install /home/qing/ros2_humble/chapter2/chapt2_4/build/demo_cpp_pkg
